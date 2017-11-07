@@ -1,0 +1,105 @@
+
+    .button-sp-area2{
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        /*padding:0 30rpx;*/
+        height: 93rpx;
+        line-height: 92rpx;
+    }
+    .button-sp-area2 view{
+        flex: 1;
+    }
+    .switch_arrow{
+        padding: 0 20rpx;
+        line-height: 40rpx;
+        font-weight: bold;
+    }
+    .subHeadLR{
+        width: 50%;
+        text-align: center;
+    }
+    .selectedHeadLR{
+        color: #fff;
+        background-color: #ffca27;
+    }
+    .textL {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .textR{
+        display: flex;
+        align-items: center;
+        text-align: right;
+        justify-content: flex-start;
+    }
+    .textC{
+        text-align: center;
+    }
+    /* 左右年月切换箭头按钮 */
+    .arrowIcon{
+        display: inline-block;
+        width: 44rpx;
+        height: 44rpx;
+    }
+    .mini-btn{
+        margin-top: 0;
+    }
+    .fullCalendar-body{
+        padding: 0;
+    }
+ /**
+ * 日历样式
+ **/
+    .calendar-week.calendar-week-header{
+        color: #666;
+        padding: 0 20rpx;
+    }
+    .calendar-week.calendar-week-header .calendar-day{
+        width:14.2%;
+        padding:20rpx 0 30rpx 0;
+        text-align: center;
+    }
+    .calendar-week{
+        background-color:#fff;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding-top: 5rpx;
+    }
+    .calendar-day{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width:14.2%;
+        text-align: center;
+        margin-right:1px;
+        margin-top:1px;
+        line-height: 36rpx;
+    }
+    .calendar-day .daysDelay{
+        position:absolute;
+        top: 5rpx;
+        right: -11rpx;
+    }
+    .date-day{
+        color: #888;
+    }
+    .date_down_wrap{
+        padding:0 20rpx 20rpx 20rpx;
+        background-color: #fff;
+    }
+    .date_down_wrap  .calendar-day{
+        height: 100rpx;
+    }
+    .bgPress{
+        width: 100rpx;
+        height: 100rpx;
+        margin: 0 auto;
+        background-color: #ffca27;
+        border-radius: 50%;
+    }
+    .font28{
+        font-size: 26rpx;
+    }

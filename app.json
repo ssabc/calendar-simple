@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/calendar/calendar"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "日历",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f4f4f4",
+    "backgroundTextStyle": "dark"
+  },
+   "networkTimeout": {
+    "request": 30000
+  }
+}

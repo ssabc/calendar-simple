@@ -1,0 +1,17 @@
+<import src="../../utils/calendar/calendar.wxml"/>
+ <view class="page">
+  <view class="page__bd">
+       <view class="weui-tab">
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content">
+                        <view class="button-sp-area2">
+                            <view class="textL" bindtap="premonth"><image style="margin-left:30rpx;" class="arrowIcon" src="/images/blueArrowL.png"></image></view>
+                            <view  class="textC">{{cal1.year}}-{{cal1.month}}</view>
+                            <view class="textR" bindtap="nextmonth"><image style="margin-right:30rpx;" class="arrowIcon" src="/images/blueArrowR.png"></image></view>
+                        </view>
+                         <template is="fullCalendar" data="{{...cal1}}"></template>
+                </view>
+            </view>
+        </view>
+    </view>    
+</view>

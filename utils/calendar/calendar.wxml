@@ -1,0 +1,20 @@
+<template name="fullCalendar">
+    <view class="fullCalendar-body">
+        <view class="calendar-week calendar-week-header">
+            <block wx:for="{{calendar.days}}" wx:for-item="day" wx:key="day">
+                <view class="calendar-day">{{day}}</view>
+            </block>
+        </view>
+        <view class="date_down_wrap">
+        <view wx:for="{{calendar.weeks}}" wx:for-item="week"  wx:key="week">
+            <view class="calendar-week">
+                <block wx:for="{{week}}" wx:for-item="day" wx:for-index="idx"  wx:key="item">
+                    <view data-idx="{{index}},{{idx}}" class="calendar-day mute{{day[0]}} {{realYear == year && realMonth == month && realDay === day[0] ? 'bgPress' :''}}">
+                        <view class="date-day" style="color: {{(idx==5 || idx==6) ? '#ddd':'#000'}}">{{day[0]==0 ? '' : day[0]}}</view>
+                    </view>
+                </block>
+            </view>
+        </view>
+        </view>
+    </view>
+</template>

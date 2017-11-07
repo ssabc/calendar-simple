@@ -1,0 +1,8 @@
+page {
+  color: #222;
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #f4f4f4;
+  font-size: 30rpx;
+  font-family: -apple-system-font,microsoft yahei, Helvetica Neue, Helvetica, sans-serif;
+}
